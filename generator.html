@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+<body>
+<main>
+    <img id="chaingapp_qr">
+  
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+<script>
+  (function() {
+
+    var qr = window.qr = new QRious({
+      element: document.getElementById('chaingapp_qr'),
+      size: 250,
+      value: 'This is ChaingApp',
+      background:'white',
+      level:'L',
+    });
+  })();
+</script>
+</body>
+</html>
