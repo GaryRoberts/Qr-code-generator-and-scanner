@@ -9,7 +9,7 @@
 </head>
 <body>
 <main>
-    <img id="chaingapp_qr">
+    <img id="qr_code">
   
 </main>
 
@@ -18,9 +18,9 @@
   (function() {
 
     var qr = window.qr = new QRious({
-      element: document.getElementById('chaingapp_qr'),
+      element: document.getElementById('qr_code'),
       size: 250,
-      value: 'This is ChaingApp',
+      value: 'This is a qr code',
       background:'white',
       level:'L',
     });
